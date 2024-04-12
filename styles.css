@@ -62,11 +62,11 @@
     width: 70%;
     padding-left: 3rem;
 }
-.icons .fa-brands:hover{
+.icons .fa-brands{
     background: #bbb;
     font-size: 1.7rem;
     cursor: pointer;
-    background: linear-gradient(#fff, #3877FF);
+    background: linear-gradient(#262525, #dd2c91);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -87,11 +87,11 @@
     color: #fff;
 }
 .content .intro span{
-    color: #5DB9EE;
+    color: #7bc2f8;
 }
 .content h1{
     font-size: 3rem;
-    color: #5DB9EE;
+    color: #7bc2f8;
 }
 .content .detail{
     font-size: 1.1rem;
@@ -101,7 +101,7 @@
     line-height: 1.5rem;
 }
 .btn-container button{
-    border: .1rem solid #5DB9EE;
+    /* border: .1rem solid #fff; */
     font-size: 1.1rem;
     padding: .8rem 1.5rem;
     border-radius: .5rem;
@@ -109,25 +109,26 @@
     transition: .5s ease;
 }
 button:nth-child(1){
-    background: #5DB9EE;
+    /* background: #f34eab; */
+    background: linear-gradient(#262525, #7bc2f8);
     color: #262525;
 }
 button:nth-child(2){
     background: transparent;
-    color: #5DB9EE;
+    color: #fff;
     margin-left: 1.5rem;
 }
 button:nth-child(1):hover{
     background: transparent;
-    color: #5DB9EE;
+    color: #fff;
 }
 button:nth-child(2):hover{
-    background: #5DB9EE;
+    background: linear-gradient(#262525, #7bc2f8);
     color: #262525;
 }
 
 .right-container{
-    background: linear-gradient(#262525 5%, rgb(245, 90, 178));
+    background: linear-gradient(#262525 5%, #ec53aa);
     width: 30%;
 }
 .design .circle{
